@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.message.light{
+    color:  #4B5563;
+}
+.message.dark{
+    color: #9CA3AF;
+}
+
+.credentials{
+    height: 70% ;
+    width: 100% ;
+}
+
+.login{
+    height: 100% ;
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.credential-item{
+    padding:0px 30px ;
+    width: 70% ;
+    height: 10% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-avatar{
+    height: 50px ;
+}
+
+.login-ip.light{
+    background-color: white;
+}
+.login-ip.dark{
+    background-color: white;
+}
+.login-ip.dark:focus{
+    background-color:#DBEAFE;
+}
+
+.icon{
+    margin-right: 15px ; 
+    width: 30px ;
+}
+
+.btn.light{
+    background-color: #EFF6FF;
+}
+
+.btn.dark{
+    background-color: #C7D2FE;
+}
+
+.lgn-btn{
+
+}
+
+@media (max-width: 700px){
+    .credential-item{
+        width: 100% ;
+    }
+}
